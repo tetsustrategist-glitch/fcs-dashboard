@@ -24,7 +24,7 @@
 <header><h1 style="margin:0; letter-spacing: 5px;">STRATEGIC COMMAND HUD</h1></header>
 <div class="dashboard-grid" id="hud-container"></div>
 <script>
-    const marketData = [{"name": "FANG+", "div": 25.45, "price": "17,318.07", "high": "19,720.91"}, {"name": "SMH (Semiconductor)", "div": 8.09, "price": "508.31", "high": "671.83"}, {"name": "QQQ (NASDAQ100)", "div": 27.54, "price": "681.09", "high": "762.86"}, {"name": "Gold (GLDM)", "div": 18.27, "price": "78.03", "high": "94.25"}];
+    const marketData = [{"name": "FANG+", "div": 27.12, "price": "17,548.62", "high": "19,720.91"}, {"name": "SMH (Semiconductor)", "div": NaN, "price": "nan", "high": "671.83"}, {"name": "QQQ (NASDAQ100)", "div": NaN, "price": "nan", "high": "762.86"}, {"name": "Gold (GLDM)", "div": NaN, "price": "nan", "high": "94.25"}];
     const container = document.getElementById('hud-container');
     marketData.forEach(item => {
         let statusClass = 'status-safe';
